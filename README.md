@@ -13,7 +13,7 @@ Return the same tree where every subtree (of the given tree) not containing a 1 
 1. The binary tree will have at most 100 nodes.
 2. The value of each node will only be 0 or 1.
 
-
+![Binary Tree Pruning](binary-tree-pruning.PNG?raw=true "Binary Tree Pruning")
 
 
 # Implementation :
