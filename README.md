@@ -47,5 +47,8 @@ class Solution {
 
 ```
 
+# Key Points :
+Note that in the recursive prune method we are first calling the prune on left subtree and right subtree, if we move the check `(node.val == 0 && node.left == null && node.right == null)` before calling prune on left subtree and right subtree, it will lead to wrong result.
+
 # References :
 https://www.youtube.com/watch?v=77LJc56bwnE
